@@ -15,7 +15,10 @@ def reformat_languages(languages)
       #binding.pry
       new_hash[key][:style]= [:oo]
     else
-      key[:style]= [:functional]
+      new_hash[key][:style]= [:functional]
     end
   end
+  
+  new_hash
+  binding.pry
 end
