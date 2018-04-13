@@ -12,8 +12,9 @@ def reformat_languages(languages)
   
   new_hash.each do |key, value|
     if languages[:oo].keys.include?(key)
-      binding.pry
+      #binding.pry
       
+    else
     
     end
   end
