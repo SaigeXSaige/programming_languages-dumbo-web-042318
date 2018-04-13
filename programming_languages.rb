@@ -1,3 +1,7 @@
+require 'pry'
+
 def reformat_languages(languages)
-  # your code here
+  languages.each do |key, value|
+  binding.pry
+  end
 end
