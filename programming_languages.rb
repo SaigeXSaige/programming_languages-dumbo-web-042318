@@ -10,6 +10,6 @@ def reformat_languages(languages)
     end
   end
   
-  if languages[:oo].keys.include?()
+  if languages[:oo].keys.include?(new_hash.keys)
   binding.pry
 end
